@@ -12,7 +12,7 @@ Each row in a data structure is transmitted only if the *select-expr* is true fo
 
 *select-expr* ::= (*boolean-expr*)
 
-*boolean-expr* ::= (*boolean-expr*) | *boolean-field* | *value-test* | ex *sub-array_test* | not *boolean-expr* | and *boolean-list* | or *boolean-list*
+*boolean-expr* ::= (*boolean-expr*) | *boolean-field* | *value-test* | exists *sub-array_test* | not *boolean-expr* | and *boolean-list* | or *boolean-list*
 
 *boolean-list* ::= *boolean-expr* | *boolean-expr* *boolean-list*
 
