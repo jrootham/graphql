@@ -6,13 +6,7 @@ Each row in a data structure is transmitted only if the *select-expr* is true fo
 ## Syntax
 *array-name* *argument-spec* *select-expr* {
 
-*field-name*{
-
-*sub-field-name*
-
-}
-
-}
+*field-name*{*sub-field-name*}}
 
 *argument-spec* ::= *current-spec* | ()
 
